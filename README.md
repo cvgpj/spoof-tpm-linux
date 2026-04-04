@@ -43,8 +43,3 @@ tpm2_evictcontrol -C o -c primary.ctx 0x81010001
 7. Agora sai e entre no windows e veja se trocou o tpm
 
 LEMBRANDO QUE SO É POSSIVEL TROCAR SUA TPM UMA VEZ USANDO ESSE MÉTODO, USE COM CUIDADO!
-
-https://discord.gg/cupimxa
-https://discord.gg/cupimxa
-https://discord.gg/cupimxa
-https://discord.gg/cupimxa
