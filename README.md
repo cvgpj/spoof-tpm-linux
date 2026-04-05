@@ -29,13 +29,21 @@ Do this with Secure Boot disabled, but if it doesn’t boot, try with it enabled
 6.	Open the Linux terminal and type the following commands:
 
 apt update && upgrade
+
 sudo su
+
 apt install tpm2-tools
+
 tpm2_clear
+
 tpm2_createprimary -C e -g sha256 -G rsa -c primary.ctx
+
 tpm2_readpublic -c primary.ctx -f pem -o endorsement_pub.pem
+
 tpm2_createprimary -C e -g sh1 -G rsa -c primary.ctx
+
 tpm2_createprimary -C e -g MD5 -G rsa -c primary.ctx
+
 tpm2_evictcontrol -C o -c primary.ctx 0x81010001
 
 7.	Now exit and boot back into Windows to check if the TPM changed.
