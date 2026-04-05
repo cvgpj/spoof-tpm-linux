@@ -13,7 +13,10 @@ SHA1 242452151356351253
 SHA256 532151535135135155
 
 THIS IS YOUR BANNED TPM!
-	1.	Install Linux Mint: https://www.linuxmint.com/edition.php?id=322
+	
+	
+
+ 1.	Install Linux Mint: https://www.linuxmint.com/edition.php?id=322
 Don’t forget to put the ISO on a USB drive with at least 4GB using Rufus.
 	
 2.	Press Win + R → type tpm.msc → Clear TPM → your PC will restart
